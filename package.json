@@ -11,10 +11,9 @@
   "scripts": {
     "test": "mocha tests  --require babel-polyfill --compilers js:babel-register"
   },
-  "dependencies": {
-    "babel-polyfill": "^6.26.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
     "chai": "^3.5.0",
