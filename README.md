@@ -23,13 +23,13 @@ Here are some great resources on the subject of code structure that directly rel
 
 ### Code Organization
 
-| src
+> src
 ... shinyknight.js
 
-| src | util
+> src/util
 ... math.utils.js
 
-| tests
+> tests
 ... shinyknight.tests.js
 
 ### Additional Katas
