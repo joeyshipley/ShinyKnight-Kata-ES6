@@ -19,7 +19,7 @@ Here are some great resources on the subject of code structure that directly rel
 
 - start your terminal, clone the repo, navigate to the folder
 - run > npm install
-- run > npm run test
+- run > npm test
 
 ### Code Organization
 
