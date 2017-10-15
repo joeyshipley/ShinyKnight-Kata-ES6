@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The ShinyKnight Kata in JS",
   "author": "Joey Shipley",
-  "license": "MIT",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/joeyshipley/shinyknight-kata-js.git"
