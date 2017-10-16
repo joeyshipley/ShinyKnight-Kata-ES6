@@ -21,16 +21,33 @@ Here are some great resources on the subject of code structure that directly rel
 - run > npm install
 - run > npm test
 
+### Failing Tests (Code fix will be needed)
+
+```
+#dmg => When our Young Squire is concerned about how much damage they take
+  and they received an overpowering attack,
+    1) it resets the hit points to 20
+    2) it does not allow the characters level to go below 1
+
+#dmg => When our Wise Defender is concerned about armor
+  and they are wearing full plate,
+    3) it applies reduced damage
+    4) it does not protect when surprised
+    5) it's effectiveness is reduced from armor penetration
+```
+
 ### Code Organization
 
-> src
-... shinyknight.js
+```
+/src
+- shinyknight.js
 
-> src/util
-... math.utils.js
+/src/util
+- math.utils.js
 
-> tests
-... shinyknight.tests.js
+/tests
+- shinyknight.tests.js
+```
 
 ### Additional Katas
 
